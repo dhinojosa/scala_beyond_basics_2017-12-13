@@ -1,0 +1,29 @@
+Java 8 must be installed!  No exceptions! JDK 7 was so 2013. Also, the latest Scala requires that we run Java 8.
+
+One of the things that I ask are that the following commands work on your command line:
+    javac -version
+    java -version
+
+If these do not render a version, please fix your `JAVA_HOME` environment variable and your `PATH`.
+
+Also be sure to install SBT, which is a Scala based build tool since we will require that for our class. 
+
+Get the latest sbt at http://www.scala-sbt.org/download.html
+
+Then, if applicable follow directions at this location:
+
+http://www.scala-sbt.org/0.13/docs/Manual-Installation.html
+
+Once done, you should be able to verify that sbt is working by invoking the following at the command line:
+
+sbt sbtVersion
+
+Also, be sure to have the LATEST favorite IDE or editor installed with all updates loaded before attendance. That means, Eclipse should be preferably at Neon or you can just download the scala-ide installation.  IDEA should be at a 2016.x series. If you are old school and wish to use Vim or Emacs or maybe you are new school and wish to use any of the newer editors like Sublime, Atom, VSCode, etc please have those setup before class and research any Scala code highlighting tools that can be aid in your development and install those plugins.  I will be exclusively using both Eclipse and IDEA for our class.
+
+Finally, install respective Scala plugins for your IDEs or Editors. For Eclipse, checkout scala-ide.org for the update site, you call also visit the Eclipse Marketplace and install Scala-IDE plugin. 
+
+For IntelliJ IDEA visit the plugins section in your IDE and install the 'Scala' plugin (Do not install the IntelliJ 'sbt' plugin as it is incompatible with the Scala plugin)
+
+NOTE: There is no need to download Scala itself, since SBT will handle the Scala set up for you.
+
+If you have any questions or need help please contact me at dhinojosa@evolutionnext.com or dh.evolutionnext@gmail.com.  We can screenshare if need be, and we can get you squared away.
