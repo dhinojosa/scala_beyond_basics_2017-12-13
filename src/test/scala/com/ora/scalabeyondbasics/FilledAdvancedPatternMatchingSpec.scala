@@ -5,7 +5,7 @@ import org.scalatest.{FunSpec, Matchers}
 import scala.annotation.tailrec
 import scala.util.matching.Regex
 
-class AdvancedPatternMatchingSpec extends FunSpec with Matchers {
+class FilledAdvancedPatternMatchingSpec extends FunSpec with Matchers {
 
   describe("Simple Pattern Matches") {
     it("can be as simple as an assignment") {
